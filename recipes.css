@@ -9,78 +9,96 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  font: 18px Arial, sans-serif;
+  font: 18px Helvetica, sans-serif;
+  color: white;
+}
+hr {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+#homelink {
+  display: block;
+  text-align: center;
+  margin-top: 2rem;
 }
 
 a {
-  border: 1px solid white;
-  border-radius: 20px;
-  background-color: white;
-  box-shadow: 0px 0px 10px #000008;
+  color: inherit;
+  text-decoration: none;
 }
+
 div {
   display: flex;
   justify-content: center;
 }
 
+#content {
+  margin-top: 2rem;
+  height: 300px;
+  border: 1px solid white;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.397);
+}
+
+.recipe-block {
+  display: block;
+  margin: auto;
+  margin-top: auto;
+  width: min(70%, 500px);
+  background-color: rgba(0, 0, 0, 0.651);
+}
+
+#title {
+  margin-top: 2rem;
+  height: auto;
+  border: 1px solid white;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.397);
+  margin-bottom: 2rem;
+}
+
+.recipe-title {
+  display: block;
+  margin: auto;
+  margin-top: auto;
+  width: min(70%, 500px);
+  background-color: rgba(0, 0, 0, 0.651);
+}
+
 img {
   width: 500px;
-  box-shadow: 0px 0px 10px #000008;
-  border-radius: 20px;
+  box-shadow: 0px 0px 20px #000008;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 ul {
-  display: table;
-  margin: 0 auto;
-  border: 1px solid white;
-  border-radius: 20px;
-  background-color: white;
-  box-shadow: 0px 0px 10px #000008;
+  margin: 10px;
 }
 
 ol {
-  display: table;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  border: 1px solid white;
-  border-radius: 20px;
-  background-color: white;
-  box-shadow: 0px 0px 10px #000008;
+  margin: 10px;
 }
 
 h1 {
   display: flex;
   justify-content: center;
-  border: 1px solid white;
-  border-radius: 20px;
-  background-color: white;
-  box-shadow: 0px 0px 10px #000008;
 }
 
 h2 {
   display: flex;
   justify-content: center;
-  border: 1px solid white;
-  border-radius: 20px;
-  background-color: white;
-  box-shadow: 0px 0px 10px #000008;
 }
 
 h3 {
   display: flex;
   justify-content: center;
-  border: 1px solid white;
-  border-radius: 20px;
-  background-color: white;
-  box-shadow: 0px 0px 10px #000008;
 }
 
 p {
-  display: flex;
-  justify-content: center;
-  border: 1px solid white;
-  border-radius: 20px;
-  background-color: white;
-  box-shadow: 0px 0px 10px #000008;
+  margin: 10px;
+  text-align: center;
 }
